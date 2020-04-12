@@ -1,0 +1,69 @@
+
+/* header */
+.header-top {
+  color: #fff;
+  background-color: #0043DC;
+  width: 100%;
+}
+
+.header-top__inner {
+  display: flex;
+  justify-content: flex-end;
+  align-content: center;
+  height: 48px;
+}
+
+.header-top__inner .phones {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 500;
+}
+
+.header-top__inner .tel:first-of-type{
+  margin-right: 50px;
+}
+
+.phones__text {
+  margin-left: 10px;
+  margin-right: 100px;
+}
+
+.header-top__buttons {
+  display: flex;
+  justify-content: flex-end;
+  align-items: stretch;
+}
+/* body */
+body {
+  margin: 0;
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 14px;
+}
+
+
+/* container */
+.container {
+  width: 100%;
+  max-width: 1152px;
+  margin: 0 auto;
+}
+
+/* buttons */
+.button {
+  padding: 15px 22px 0;
+  text-transform: uppercase;
+}
+
+.button-signin {
+  font-weight: bold;
+}
+
+.button-search {
+  padding-right: 0;
+}
+
+.button:active,
+.button:hover {
+  background-color: rgba(0, 0, 0, 0.3);
+}
